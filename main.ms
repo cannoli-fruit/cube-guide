@@ -14,7 +14,7 @@ Cody Motes aka. codycodes1234 why did i choose that as my username when i was 8
 Cube pieces
 .PP
 On the cube, it's impossible to have any arrangement of stickers, unless of course you remove the stickers.
-The cube is made of 20 pieces and a core, which holds 4 centers
+The cube is made of 20 pieces and a core, which holds 6 centers
 .NH 2
 Corners
 .PP

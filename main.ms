@@ -86,7 +86,7 @@ Solving the white cross
 Daisy
 .PP
 .CU ?W?WYW?W??????????????????????????????????????????????
-Note: Before the daisy ensure theat the white center is on the bottom, make sure to keep the white center on bottom until much later
+Note: Before the daisy ensure that the white center is on the bottom, make sure to keep the white center on bottom until much later
 It is a common mistake I've seen to mess up the cube by rotating anddoing some moves while looking at the wrong part.
 Soon there will be images with the white center on top, but these are just for showing what the steps should have done, don't actually rotate to that position
 
@@ -97,7 +97,8 @@ To solve the daisy you may be able to do it just by screwing with the cube, but 
 This will go one edge at a time, ensure to repeat for all four edges
 
 .CB ????Y?????????W????????????
-.PP This case is the simplest and can be solved with just R, mirror this algorithm if needed.
+.PP
+This case is the simplest and can be solved with just R, mirror this algorithm if needed.
 
 .NH 3
 Case 2
@@ -138,7 +139,7 @@ Next, perform a U move on the cube, and continue until the center and edge on th
 .CB ?W?WYW???????R??R??????????
 
 .PP
-Finally, repeat the previous step until there are no more white edges around the yellow center, and there are 4 edges around the white center
+Finally, rotate the cube to look at another center, and repeat the previous step until there are no more white edges around the yellow center, and there are 4 edges around the white center
 
 .NH 1
 White Corners
@@ -292,7 +293,7 @@ The next step requires rotating the yellow corners so there is a solid yellow fa
 Positioning corners
 .PP
 To position a corner
-.BI Do not
+.BI "Do not"
 rotate the full cube, instead just do a D/D'/D2 move, otherwise the cube will get messed up
 
 Make sure to move the corner you would like to rotate (i.e doesn't have yellow pointing down) in the bottom front right of the cube
@@ -304,7 +305,8 @@ To rotate the bottom front right corner, simply do the Right-handed sexy move tw
 This algorithm will mess with the other layers, but it will reverse itself
 .PP
 Simply continue positioning corners and rotating corners until every corner has yellow pointing down, this will end up solving the other layers that got messed up.
-
+.PP
+After finishing all corner rotationing, make sure to rotate the bottom layer so that the yellow edges are all solved again.
 .NH
 Final corners
 .PP

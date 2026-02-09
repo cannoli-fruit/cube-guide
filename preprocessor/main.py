@@ -37,7 +37,7 @@ for i, line in enumerate(sys.stdin):
         subprocess.run(
             ["convert", f"cube-img-{i}.svg", f"cube-img-{i}.{filetype}"]
         )
-        print(f".{mode}PIC -L cube-img-{i}.{filetype} 2i")
+        print(f".{mode}PIC -L cube-img-{i}.{filetype} 1i")
     # Unwraped cube image
     elif line.startswith(".CU "):
         tokens = list(line)[4:]
@@ -58,7 +58,7 @@ for i, line in enumerate(sys.stdin):
         subprocess.run(
             ["magick", f"cube-img-{i}.svg", f"cube-img-{i}.{filetype}"]
         )
-        print(f".{mode}PIC -L cube-img-{i}.{filetype} 3i")
+        print(f".{mode}PIC -L cube-img-{i}.{filetype} 1.5i")
     elif line.startswith(".CL "):
         tokens = list(line)[4:]
         if len(tokens) != 21:
@@ -80,6 +80,6 @@ for i, line in enumerate(sys.stdin):
         subprocess.run(
             ["magick", f"cube-img-{i}.svg", f"cube-img-{i}.{filetype}"]
         )
-        print(f".{mode}PIC -L cube-img-{i}.{filetype} 2i")
+        print(f".{mode}PIC -L cube-img-{i}.{filetype} 1i")
     else:
         print(line)

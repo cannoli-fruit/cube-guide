@@ -268,7 +268,9 @@ This step uses a combination of sexy moves to move around edges, to begin perfor
 .PP
 Affects of the algorithm are below but not important to remember
 .CU YYYYYYYYYRRRRRRRRRGBGGGGGGGOGOOOOOOOBOBBBBBBBWWWWWWWWW
-To begin, rotate the top until you can reach one of the following cases
+To begin, rotate the top until you can reach one of the following cases.
+
+If you get another case such as two adjacent edges, continue rotating the top layer.
 .NH 2
 Solved case
 .PP

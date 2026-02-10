@@ -7,8 +7,6 @@
 Beginner's Method of solving a Rubik's Cube
 .AU
 Cody Motes aka. codycodes1234 why did i choose that as my username when i was 8
-.SH
-0. Prerequisite knowledge
 
 .NH
 Cube pieces

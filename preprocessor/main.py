@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import cubeImageGen
 
 import sys, subprocess

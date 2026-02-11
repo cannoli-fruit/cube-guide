@@ -1,0 +1,14 @@
+# Cube Preprocessor
+.PR preprocessor/main.py
+.FR PDF
+
+# PDF Postprocessor
+.PO ps2pdf
+.FO -
+
+# MS macros
+.MC ms
+
+# IO
+.IN main.ms
+.OT index.pdf
